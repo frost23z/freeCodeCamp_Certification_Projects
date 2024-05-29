@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey-Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description" class="txt-italic">A survey on IDE usage (for age from 15 to 35)</p>
+        </header>
+        <form id="survey-form">
+            <div class="form-content">
+                <label id="name-label" for="name" class="lb">Name</label>
+                <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+
+                <label id="email-label" for="email" class="lb">Email</label>
+                <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required>
+
+                <label id="number-label" for="number" class="lb">Age</label>
+                <input type="number" name="age" id="number" class="input-field" placeholder="Enter your age" required
+                    min="15" max="35">
+
+                <label id="dropdown-label" for="dropdown" class="lb">Which IDE do you use?</label>
+                <select id="dropdown" name="dropdown" class="input-field" required>
+                    <option disabled selected value>Select an option</option>
+                    <option value="vscode">Visual Studio</option>
+                    <option value="sublime">CodeBlocks</option>
+                    <option value="pycharm">PyCharm</option>
+                    <option value="eclipse">Eclipse</option>
+                    <option value="netbeans">NetBeans</option>
+                    <option value="intellij">IntelliJ IDEA</option>
+                </select>
+
+                <label id="radio-label" class="lb">Would you recommend your IDE to a friend?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="radio" value="yes" class="input-radio" required> Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="radio" value="no" class="input-radio" required> No
+                    </label>
+                </div>
+
+                <label id="checkbox-label" class="lb">What features do you like in your IDE?</label>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="checkbox" value="syntax-highlighting" class="input-checkbox">
+                        Syntax Highlighting
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox" value="auto-indentation" class="input-checkbox"> Auto
+                        Indentation
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox" value="code-completion" class="input-checkbox"> Code
+                        Completion
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox" value="debugging" class="input-checkbox"> Debugging
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox" value="intellisense" class="input-checkbox"> Intellisense
+                    </label>
+                    <label>
+                        <input type="checkbox" name="checkbox" value="other" class="input-checkbox"> Other
+                    </label>
+                </div>
+
+                <label id="comment-label" for="comment" class="lb">Any other comments or suggestions?</label>
+                <textarea id="comment" name="comment" class="input-field"
+                    placeholder="Enter your comments here"></textarea>
+
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
