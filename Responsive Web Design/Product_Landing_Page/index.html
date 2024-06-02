@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div id="logo">
+            <img id="header-img"
+                src="https://assets.materialup.com/uploads/5b486f73-a666-4daf-af38-343e3c2ff87d/preview.png"
+                alt="Product Logo">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#user-guide">User Guide</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h1>Secure Your Home with Our Smart Security System</h1>
+        <p>Advanced protection for modern homes. Stay safe, stay connected.</p>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Enter your email address" required>
+            <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+    </section>
+
+    <div class="main">
+        <section id="features">
+            <div class="feature">
+                <div class="icon">
+                    <i class="fas fa-shield-alt fa-3x"></i>
+                </div>
+                <div class="context">
+                    <h3>Secure</h3>
+                    <p>Our security system is designed to keep your home safe.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">
+                    <i class="fas fa-wifi fa-3x"></i>
+                </div>
+                <div class="context">
+                    <h3>Connected</h3>
+                    <p>Stay connected to your home from anywhere in the world.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">
+                    <i class="fas fa-cogs fa-3x"></i>
+                </div>
+                <div class="context">
+                    <h3>Easy to Use</h3>
+                    <p>Our system is designed to be user-friendly and easy to set up.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="user-guide">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3s7h2MHQtxc" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p>Watch our video to learn how to set up and use our security system.</p>
+        </section>
+
+        <section id="pricing">
+            <div class="pricing-plan" id="basic">
+                <div class="label">Basic</div>
+                <h3>$10/month</h3>
+                <ol>
+                    <li>features</li>
+                    <li>features</li>
+                    <li>features</li>
+                    <li>features</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+            <div class="pricing-plan" id="pro">
+                <div class="label">Pro</div>
+                <h3>$20/month</h3>
+                <ol>
+                    <li>features</li>
+                    <li>features</li>
+                    <li>features</li>
+                    <li>features</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+            <div class="pricing-plan" id="pro+">
+                <div class="label">Pro Plus</div>
+                <h3>$30/month</h3>
+                <ol>
+                    <li>features</li>
+                    <li>features</li>
+                    <li>features</li>
+                    <li>features</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <div class="social-media">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <span>&copy; 2024 Our Product. All rights reserved.</span>
+    </footer>
+</body>
+
+</html>
