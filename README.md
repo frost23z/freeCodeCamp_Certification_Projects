@@ -15,6 +15,7 @@ Welcome to my freeCodeCamp Certification Projects repository! This repository co
 Certification Projects related to learning HTML and CSS, focusing on creating responsive web pages.
 
 - [Survey Form](Responsive%20Web%20Design/Survey_Form)
+- [Tribute Page](Responsive%20Web%20Design/Tribute_Page)
 
 ## How to Use This Repository
 
