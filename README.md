@@ -16,6 +16,7 @@ Certification Projects related to learning HTML and CSS, focusing on creating re
 
 - [Survey Form](Responsive%20Web%20Design/Survey_Form)
 - [Tribute Page](Responsive%20Web%20Design/Tribute_Page)
+- [Product Landing Page](Responsive%20Web%20Design/Product_Landing_Page)
 
 ## How to Use This Repository
 
